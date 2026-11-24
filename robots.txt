@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://internshipspain.com/sitemap_index.xml
+Sitemap: https://internshipspain.com/sitemap.xml

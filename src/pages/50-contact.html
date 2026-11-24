@@ -1,0 +1,66 @@
+<!--meta {
+  "title": "Contact - INTERNSHIP SPAIN",
+  "path": "/contact/",
+  "nav": "contact",
+  "breadcrumb": [["Home", "/"], ["Contact", "/contact/"]]
+} -->
+<section class="section">
+  <div class="container contact-grid">
+    <div class="spacer"></div>
+    <div class="contact-form-col">
+      <form id="contact-form" data-endpoint="https://formsubmit.co/ajax/info@internshipspain.com" data-redirect="/thank-you-for-contacting-us/" novalidate>
+        <h1>Contact Us</h1>
+        <div class="form-msg" role="status" aria-live="polite"></div>
+        <input type="hidden" name="_subject" value="New message from internshipspain.com">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-field"><label for="f-org">Sending organisation (VET provider) <abbr title="required">*</abbr></label><input id="f-org" type="text" name="Sending organisation" required autocomplete="organization"></div>
+        <div class="form-field"><label for="f-country">Country <abbr title="required">*</abbr></label><input id="f-country" type="text" name="Country" required autocomplete="country-name"></div>
+        <div class="form-field"><label for="f-person">Contact person <abbr title="required">*</abbr></label><input id="f-person" type="text" name="Contact person" required autocomplete="name"></div>
+        <div class="form-field"><label for="f-email">Email <abbr title="required">*</abbr></label><input id="f-email" type="email" name="email" required autocomplete="email"></div>
+        <div class="form-field"><label for="f-programme">Students’ VET programme or qualification <abbr title="required">*</abbr></label><input id="f-programme" type="text" name="VET programme or qualification" required></div>
+        <div class="form-field"><label for="f-number">Number of learners <abbr title="required">*</abbr></label><input id="f-number" type="text" name="Number of learners" required></div>
+        <div class="form-field"><label for="f-age">Age of learners <abbr title="required">*</abbr></label><input id="f-age" type="text" name="Age of learners" required></div>
+        <div class="form-field"><label for="f-dates">Mobility dates <abbr title="required">*</abbr></label><input id="f-dates" type="text" name="Mobility dates" required></div>
+        <div class="form-field"><label for="f-msg">Message <abbr title="required">*</abbr></label><textarea id="f-msg" name="Message" rows="7" required></textarea></div>
+        <label class="form-check"><input type="checkbox" name="Privacy consent" value="Yes" required><span>✓ I consent to the use of my data for the purposes indicated in the <a href="/privacy-policy/" target="_blank">privacy policy</a> <abbr title="required">*</abbr></span></label>
+        <label class="form-check"><input type="checkbox" name="Advertising consent" value="Yes"><span>✉ I consent to the use of my personal data to receive advertising from your entity.</span></label>
+        <div class="form-field captcha"><span class="captcha-q" data-captcha>0 + 4 = ?</span><label for="f-verif">Please prove that you are human by solving the equation <abbr title="required">*</abbr></label><input id="f-verif" type="text" name="verification" required inputmode="numeric" autocomplete="off"></div>
+        <button class="btn btn-submit" type="submit">Submit</button>
+      </form>
+
+      <div class="toggles boxed contact-data">
+        <details class="toggle"><summary><strong>BASIC DATA PROTECTION INFORMATION</strong></summary><div class="toggle-body">
+          <table class="data-table">
+            <caption class="sr-only">BASIC DATA PROTECTION INFORMATION</caption>
+            <tr><th>Data Controller</th><td>MOVE ABROAD EXPERIENCE SL</td></tr>
+            <tr><th>Controller Address</th><td>Conde Salvatierra 21, Pta. 4, 46004, Valencia (Valencia, Spain)</td></tr>
+            <tr><th>Purpose</th><td>Your data will be used to respond to your requests and provide our services.</td></tr>
+            <tr><th>Advertising</th><td>We will only send you advertising with your prior authorization, which you may provide through the corresponding checkbox established for this purpose.</td></tr>
+            <tr><th>Legal Basis</th><td>We will only process your data with your prior consent, which you may provide through the corresponding checkbox established for this purpose.</td></tr>
+            <tr><th>Recipients</th><td>In general, only duly authorized personnel of our entity may have access to the information we request from you.</td></tr>
+            <tr><th>Rights</th><td>You have the right to know what information we hold about you, correct it and delete it, as explained in the additional information available on our website.</td></tr>
+            <tr><th>Additional Information</th><td>More information in the <strong>“<a href="/privacy-policy/">Privacy Policy</a>”</strong> section of our website.</td></tr>
+          </table>
+        </div></details>
+      </div>
+    </div>
+    <div class="contact-info">
+      <h3><a href="/">INTERNSHIP SPAIN</a></h3>
+      <ul>
+        <li>Valencia, Comunidad Valenciana, España</li>
+        <li>Tel. <a href="tel:+34672852975">(+34) 672 852 975</a></li>
+        <li>Opening hours:<br>&nbsp; Monday-Friday: 8:00-14:00, 15:00-19:00</li>
+        <li><a href="mailto:info@internshipspain.com">info@internshipspain.com</a></li>
+      </ul>
+      <a class="btn btn-green" href="https://api.whatsapp.com/send?phone=34672852975" target="_blank" rel="noopener">{{icon:whatsapp}} Whatsapp (+34) 672 852 975</a>
+      <a class="btn" href="tel:+34672852975">{{icon:phone}} Call (+34) 672 852 975</a>
+    </div>
+  </div>
+  <div class="container contact-map">
+    <div class="map-consent big" data-map-src="https://maps.google.com/maps?q=Valencia%2C%20Espa%C3%B1a&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed">
+      <span>Para la correcta visualización, debe aceptar las cookies.</span>
+      <button type="button" data-accept-cookies>Accept and show the map</button>
+    </div>
+  </div>
+</section>
